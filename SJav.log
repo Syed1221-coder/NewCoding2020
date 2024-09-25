@@ -1,0 +1,55 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240925181512
+Username: LAPTOP-2O6ESPQ9\javee
+RunAs User: LAPTOP-2O6ESPQ9\javee
+Configuration Name: 
+Machine: LAPTOP-2O6ESPQ9 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 14928
+PSVersion: 5.1.22621.4111
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4111
+BuildVersion: 10.0.22621.4111
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is SJav.log
+PS C:\Users\javee> New-Item -path C:\Users\javee -Name 'SyedCoder' -ItemType Directory
+
+
+    Directory: C:\Users\javee
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        25-09-2024     18:16                SyedCoder
+
+
+PS C:\Users\javee> git --version
+git version 2.44.0.windows.1
+PS C:\Users\javee> git clone https://github.com/Syed1221-coder/NewCoding2020.git
+Cloning into 'NewCoding2020'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (5/5), 5.04 KiB | 2.52 MiB/s, done.
+PS C:\Users\javee> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\javee> Git Status
+
+PS C:\Users\javee> Set-Location NewCoding2020
+PS C:\Users\javee\NewCoding2020> git status
+
+PS C:\Users\javee\NewCoding2020> git checkout -b SJaaqib 
+
+PS C:\Users\javee\NewCoding2020> git status
+
+PS C:\Users\javee\NewCoding2020> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240925181916
+**********************
